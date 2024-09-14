@@ -20,268 +20,114 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
+  name: "Marvin Hsieh",
   initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  location: "Taipei, Taiwan",
+  locationLink: "https://www.google.com/maps/place/Taipei",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Exploring the fascinating world of blockchain technology.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "With two years of hands-on experience in the blockchain space, my daily routine includes writing blockchain news reports, which keeps me highly informed and sensitive to the latest on-chain information and trends. This deep understanding of the blockchain landscape is further enhanced by my active contribution to the development of Cathay's consortium blockchain deployment toolkit, demonstrating my commitment to advancing blockchain infrastructure. As an avid DeFi explorer and a degen at heart, I'm always eager to dive head-first into the newest protocols.",
+  avatarUrl: "https://pbs.twimg.com/media/GWSbqyKagAENceU?format=jpg&name=medium",
+  personalWebsiteUrl: "",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "a0918860257@gmail.com",
+    tel: "+886 918860257",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/a7351220",
         icon: GitHubIcon,
       },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
-      },
+      // {
+      //   name: "LinkedIn",
+      //   url: "https://www.linkedin.com/in/bjarocki/",
+      //   icon: LinkedInIcon,
+      // },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/minghua6699",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "National Chung Cheng University",
+      degree: "Master Program In Financial Technology",
+      start: "2022",
+      end: "2024",
+    },
+    {
+      school: "National Chiayi University",
+      degree: "Department of Electrical Engineering",
+      start: "2018",
+      end: "2022",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
+      company: "Cathay Blockchain Technology Development",
+      link: "https://www.cathayholdings.com/holdings/",
+      badges: ["Full Time"],
+      title: "Intern",
       logo: ConsultlyLogo,
       start: "2024",
       end: null,
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+        "Participated in research on blockchain technologies such as DID, L2, and consortium blockchains. " +
+        "Assisted in refactoring Cathay's proprietary BDK consortium blockchain deployment toolkit, contributing to the implementation of a command-driven architecture that simplifies the deployment process. " +
+        "Successfully integrated multiple consortium blockchain platforms, including Quorum and Fabric, and continue to expand support for new chains like Besu. " +
+        "Technologies: Typescript, Node.js, React, Solidity".split('.').map((item) => item.trim()).filter((item) => item !== "")
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Sats Community",
+      link: "https://x.com/satscommunity",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title: "Contributor",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2024",
+      end: "Present",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Delivered an engaging presentation on Introduction to Move Language at an Aptos Workshop, providing attendees with a foundational understanding of Move's syntax, features, and use cases. " +
+        "Facilitated interactive discussions and Q&A sessions, fostering a collaborative learning environment for participants to deepen their knowledge of Move programming. ".split('. ').map((item) => item.trim()).filter((item) => item !== "")
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      company: "CryptoPaul",
+      link: "https://x.com/CryptoPaultw",
+      badges: ["Remote"],
+      title: "Intern",
+      logo: ParabolLogo,
+      start: "2024",
+      end: "Present",
       description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
+        "Responsible for writing daily blockchain news reports on X platform, achieving an average daily traffic of 3,000 and a peak of over 20,000, attracting numerous imitators. " +
+        "Participated in the production of YouTube videos explaining current events in the blockchain space. ".split('. ').map((item) => item.trim()).filter((item) => item !== "")
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
+      company: "Chang Hwa Commercial Bank Electronic Banking Department",
+      link: "https://www.bankchb.com/frontend/index.html",
+      badges: ["Full Time"],
+      title: "Intern",
+      logo: ClevertechLogo,
+      start: "2023/07",
+      end: "09",
+      description:
+        "Independently developed a retirement financial planning system integrated with a Taiwanese stock market machine learning-based intelligent recommendation system. " +
+        "Utilized machine learning models to automatically recommend monthly investment portfolio targets and provided nine different strategy options based on user risk preferences. " +
+        "Technologies: Python, React, Firebase ".split('. ').map((item) => item.trim()).filter((item) => item !== "")
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React/Next.js",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Solidity",
+    "Python",
+    "Firebase",
   ],
   projects: [
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+
   ],
 } as const;

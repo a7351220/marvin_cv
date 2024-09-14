@@ -109,7 +109,6 @@ export default function Page() {
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
-
                       <span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
                           <Badge
@@ -132,7 +131,11 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs print:text-[10px]">
-                  {work.description}
+                  <ul className="list-disc pl-4 space-y-1">
+                    {work.description.split('. ').map((item, index) => (
+                      <li key={index}>{item.trim()}</li>
+                    ))}
+                  </ul>
                 </CardContent>
               </Card>
             );
@@ -173,7 +176,7 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+        {/* <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
@@ -188,7 +191,7 @@ export default function Page() {
               );
             })}
           </div>
-        </Section>
+        </Section> */}
       </section>
 
       <CommandMenu
