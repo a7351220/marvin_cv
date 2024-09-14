@@ -67,7 +67,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Cathay Blockchain Technology Development",
+      company: "Cathay Blockchain",
       link: "https://www.cathayholdings.com/holdings/",
       badges: ["Full Time"],
       title: "Intern",
@@ -105,7 +105,7 @@ export const RESUME_DATA = {
         "Participated in the production of YouTube videos explaining current events in the blockchain space. ".split('. ').map((item) => item.trim()).filter((item) => item !== "")
     },
     {
-      company: "Chang Hwa Commercial Bank Electronic Banking Department",
+      company: "Chang Hwa Bank",
       link: "https://www.bankchb.com/frontend/index.html",
       badges: ["Full Time"],
       title: "Intern",
