@@ -102,7 +102,7 @@ export const RESUME_DATA = {
       end: "Present",
       description:
         "Responsible for writing daily blockchain news reports on X platform, achieving an average daily traffic of 3,000 and a peak of over 20,000, attracting numerous imitators. " +
-        "Managed a community of over 400 members, facilitating interactions and sharing on-chain insights." +
+        "Managed a community of over 400 members, facilitating interactions and sharing on-chain insights. " +
         "Participated in the production of YouTube videos explaining current events in the blockchain space. ".split('. ').map((item) => item.trim()).filter((item) => item !== "")
     },
     {
@@ -127,9 +127,9 @@ export const RESUME_DATA = {
       start: "2024/08",
       end: "11",
       description:
-        "In 2024, I participated in the Aptos Code Collision Hackathon and won 4th place globally (MEXC Venture's Choice Award) and 2nd place in the Taipei Warm-Up Event with the project 紅包拿來." +
+        "In 2024, I participated in the Aptos Code Collision Hackathon and won 4th place globally (MEXC Venture's Choice Award) and 2nd place in the Taipei Warm-Up Event with the project 紅包拿來. " +
         "The project leveraged Aptos Random API and zero-knowledge proof technology to design a fair and transparent red envelope distribution system, creatively blending traditional culture with innovative technology. " +
-        "Technologies: Move, Aptos SDK, Next".split('. ').map((item) => item.trim()).filter((item) => item !== "")
+        "Technologies: Move, Aptos SDK, Next ".split('. ').map((item) => item.trim()).filter((item) => item !== "")
     },
   ],
   skills: [
