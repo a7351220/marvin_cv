@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Exploring the fascinating world of blockchain technology.",
   summary:
     "With two years of hands-on experience in the blockchain space, my daily routine includes writing blockchain news reports, which keeps me highly informed and sensitive to the latest on-chain information and trends. This deep understanding of the blockchain landscape is further enhanced by my active contribution to the development of Cathay's consortium blockchain deployment toolkit, demonstrating my commitment to advancing blockchain infrastructure. As an avid DeFi explorer and a degen at heart, I'm always eager to dive head-first into the newest protocols.",
-  avatarUrl: "https://pbs.twimg.com/media/GWSbqyKagAENceU?format=jpg&name=medium",
+  avatarUrl: "https://cdn.dorahacks.io/static/files/1928085b6d44e7a4266cb6244f79f40b.png@128h.webp",
   personalWebsiteUrl: "",
   contact: {
     email: "a0918860257@gmail.com",
@@ -72,8 +72,8 @@ export const RESUME_DATA = {
       badges: ["Full Time"],
       title: "Intern",
       logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
+      start: "2024/02",
+      end: "11",
       description:
         "Participated in research on blockchain technologies such as DID, L2, and consortium blockchains. " +
         "Assisted in refactoring Cathay's proprietary BDK consortium blockchain deployment toolkit, contributing to the implementation of a command-driven architecture that simplifies the deployment process. " +
@@ -102,6 +102,7 @@ export const RESUME_DATA = {
       end: "Present",
       description:
         "Responsible for writing daily blockchain news reports on X platform, achieving an average daily traffic of 3,000 and a peak of over 20,000, attracting numerous imitators. " +
+        "Managed a community of over 400 members, facilitating interactions and sharing on-chain insights." +
         "Participated in the production of YouTube videos explaining current events in the blockchain space. ".split('. ').map((item) => item.trim()).filter((item) => item !== "")
     },
     {
@@ -117,6 +118,19 @@ export const RESUME_DATA = {
         "Utilized machine learning models to automatically recommend monthly investment portfolio targets and provided nine different strategy options based on user risk preferences. " +
         "Technologies: Python, React, Firebase ".split('. ').map((item) => item.trim()).filter((item) => item !== "")
     },
+    {
+      company: "Aptos Code Collision Hackathon",
+      link: "https://dorahacks.io/buidl/17220",
+      badges: ["Full Time"],
+      title: "Intern",
+      logo: ClevertechLogo,
+      start: "2024/08",
+      end: "11",
+      description:
+        "In 2024, I participated in the Aptos Code Collision Hackathon and won 4th place globally (MEXC Venture's Choice Award) and 2nd place in the Taipei Warm-Up Event with the project 紅包拿來." +
+        "The project leveraged Aptos Random API and zero-knowledge proof technology to design a fair and transparent red envelope distribution system, creatively blending traditional culture with innovative technology. " +
+        "Technologies: Move, Aptos SDK, Next".split('. ').map((item) => item.trim()).filter((item) => item !== "")
+    },
   ],
   skills: [
     "JavaScript",
@@ -126,6 +140,9 @@ export const RESUME_DATA = {
     "Solidity",
     "Python",
     "Firebase",
+    "Docker",
+    "Git",
+    "Linux",
   ],
   projects: [
 
