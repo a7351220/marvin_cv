@@ -75,10 +75,13 @@ export const RESUME_DATA = {
       start: "2024/02",
       end: "11",
       description:
-        "Participated in research on blockchain technologies such as DID, L2, and consortium blockchains. " +
-        "Assisted in refactoring Cathay's proprietary BDK consortium blockchain deployment toolkit, contributing to the implementation of a command-driven architecture that simplifies the deployment process. " +
-        "Successfully integrated multiple consortium blockchain platforms, including Quorum and Fabric, and continue to expand support for new chains like Besu. " +
-        "Technologies: Typescript, Node.js, React, Solidity".split('.').map((item) => item.trim()).filter((item) => item !== "")
+      "Participated in research on blockchain technologies such as DID, L2, and consortium blockchains. " +
+      "Assisted in refactoring Cathay's proprietary BDK consortium blockchain deployment toolkit, contributing to the implementation of a command-driven architecture that simplifies the deployment process. " +
+      "Developed a modular approach for consortium blockchain node deployment using Docker and Typescript, streamlining parameterized configuration and enhancing deployment efficiency. " +
+      "Integrated support for multiple blockchain platforms, including Hyperledger Fabric, Quorum, and Besu. " +
+      "Contributed to DID protocol implementation to enable decentralized identity verification and data management while ensuring privacy protection. " +
+      "Explored Layer 2 solutions like Rollups and State Channels, analyzing their potential for performance optimization and enterprise application feasibility. " +
+      "Technologies: Typescript, Node.js, Docker, Kubernetes, Hyperledger Fabric, Quorum, Besu".split('.').map((item) => item.trim()).filter((item) => item !== "")
     },
     {
       company: "Sats Community",
