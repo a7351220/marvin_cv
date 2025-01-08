@@ -84,8 +84,8 @@ export const RESUME_DATA = {
       "Technologies: Typescript, Node.js, Docker, Kubernetes, Hyperledger Fabric, Quorum, Besu".split('.').map((item) => item.trim()).filter((item) => item !== "")
     },
     {
-      company: "Sats Community",
-      link: "https://x.com/satscommunity",
+      company: "BOBA DAO",
+      link: "https://x.com/bobadao_lfg",
       badges: ["Remote"],
       title: "Contributor",
       logo: ClevertechLogo,
