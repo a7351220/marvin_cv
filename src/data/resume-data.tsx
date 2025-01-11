@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Exploring the fascinating world of blockchain technology.",
   summary:
-    "With two years of hands-on experience in the blockchain space, my daily routine includes writing blockchain news reports, which keeps me highly informed and sensitive to the latest on-chain information and trends. This deep understanding of the blockchain landscape is further enhanced by my active contribution to the development of Cathay's consortium blockchain deployment toolkit, demonstrating my commitment to advancing blockchain infrastructure. As an avid DeFi explorer and a degen at heart, I'm always eager to dive head-first into the newest protocols.",
+    "I am a proactive and adaptable individual with a solid technical foundation, strong problem-solving abilities, and excellent communication skills. I excel in analyzing challenges, developing innovative solutions, and collaborating with teams to deliver impactful results. With expertise in cutting-edge fields such as blockchain, artificial intelligence, and full-stack development, I bring a flexible and solution-oriented approach to complex technical and collaborative environments. Additionally, I am proficient in Python, JavaScript, and Java, with the capability to independently develop systems from requirement analysis to deployment, ensuring efficiency and high-quality delivery.",
   avatarUrl: "https://cdn.dorahacks.io/static/files/1928085b6d44e7a4266cb6244f79f40b.png@128h.webp",
   personalWebsiteUrl: "",
   contact: {
